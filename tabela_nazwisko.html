@@ -1,77 +1,81 @@
-<html>
+ <!DOCTYPE html>
+<html lang="pl">
 <head>
-<title>Tabela </title>
-<meta charset="utf-8">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesory i ich specyfikacje</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #d67a2e;
+            color: #fff;
+        }
+        td {
+            background-color: #f4a460;
+        }
+        .wide-cell {
+            background-color: #d67a2e;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
 </head>
-
 <body>
 
-
-<TABLE BORDER CELLSPACING=8 style="border-collapse: collapse">
-<tr>
-<td align="center" bgcolor="#67B4F0"> Tymoteusz Maszk 1P </td>
-
-</tr>
-<tr>
-    <th align=left bgcolor="#67B4F0">Nazwa kart graficznych</th>
-    <th align=left bgcolor="#67B4F0">Cena</th>
-    <th align=left bgcolor="#67B4F0">Taktowanie rdzenia</th>
-    <th align=left bgcolor="#67B4F0">Pamięć</th>
-	<th align=left bgcolor="#67B4F0">Rodzaj pamięci</th>
-	<th align=left bgcolor="#67B4F0">Obsługa Raytracingu</th>
-	<th align=left bgcolor="#67B4F0">Efektywne taktowanie pamięci</th>
-</tr>
-<tr>
-    <th align=left bgcolor="#67B4F0">MSI GeForce GTX 1660 Ti VEN M TUS XS OC </td>
-    <th align=left bgcolor="#2BAB28">2899,00zł</td>
-	<th align=left bgcolor="#2BAB28"rowspan="2">1860MHz</td>
-	<th align=left bgcolor="#F5E41F">6GB</td>
-	<th align=left bgcolor="#2BAB28"rowspan="3">GDDR6</Th> 
-	<th align=left bgcolor="#F52D0A"rowspan="2">Nie</th>
-	<th align=left bgcolor="#2BAB28"rowspan="2">12000</th>
-</tr>
-<tr>
-    <th align=left bgcolor="#67B4F0">Gigabyte GeForce GTX 1650 D6 WINDFORCE OC (rev. 2.0) 4GB GDDR6 128bit </td>
-    <th align=left bgcolor="#2BAB28">1 799 zł</td>
-	<th align=left bgcolor="#F5E41F">4GB</td>
-	 
-</tr>
-<tr>
-    <th align=left bgcolor="#67B4F0">Gigabyte GeForce RTX 3060 AORUS ELITE LHR </td>
-	<th align=left bgcolor="#2BAB28">3999,00 zł</td>
-	<th align=left bgcolor="#2BAB28">1867 MHz</td>
-	<th align=left bgcolor="#2BAB28">12 GB </td>
-	<th align=left bgcolor="#2BAB28"rowspan="4">Tak</td>
-	<th align=left bgcolor="#2BAB28">15000 MHz </td>
-</tr>
-<tr>
-    <th align=left bgcolor="#67B4F0"> MSI GeForce RTX 3090 SUPRIM X  </td>
-    <th align=left bgcolor="red">13999,00zł</td>
-	<th align=left bgcolor="#2BAB28" >1860 MHz</td>
-	<th align=left bgcolor="#2BAB28" >24GB</td>
-	<th align=left bgcolor="#F52D0A"rowspan="2">GDDR6X</TD>
-	<th align=left bgcolor="#2BAB28">19500 MHz </td>
-	
-</tr
-
-<tr>
-    <th align=left bgcolor="#67B4F0">MSI GeForce RTX 3080 Ti VENTUS 3X LHR 12GB GDDR6X </td>
-    <th align=left bgcolor="#F52D0A">8199,00zł</td>
-	<th align=left bgcolor="#F52D0A">1665 MHz </td>
-	<th align=left bgcolor="#2BAB28">12GB</td>
-	<th align=left bgcolor="#2BAB28">10800 MHz </td>
-</tr>
-	
+<table>
+    <thead>
+        <tr>
+            <th>Model Procesora</th>
+            <th>Taktowanie</th>
+            <th>Rdzenie/Wątki</th>
+            <th>Cena</th>
+            <th>Kompatybilność z płytą główną</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Intel Core i9-13900K</td>
+            <td>3.0 GHz</td>
+            <td>24/32</td>
+            <td>2800 zł</td>
+            <td rowspan="5" class="wide-cell">Każda nowsza płyta główna na rynku</td>
+        </tr>
+        <tr>
+            <td>AMD Ryzen 9 7900X</td>
+            <td>4.7 GHz</td>
+            <td>12/24</td>
+            <td>2500 zł</td>
+        </tr>
+        <tr>
+            <td>Intel Core i7-13700K</td>
+            <td>3.4 GHz</td>
+            <td>16/24</td>
+            <td>1900 zł</td>
+        </tr>
+        <tr>
+            <td>AMD Ryzen 7 7700X</td>
+            <td>4.5 GHz</td>
+            <td>8/16</td>
+            <td>1800 zł</td>
+        </tr>
+        <tr>
+            <td>Intel Core i5-13600K</td>
+            <td>3.5 GHz</td>
+            <td>14/20</td>
+            <td>1500 zł</td>
+        </tr>
+    </tbody>
 </table>
- <H6> <i> <b>  <A href ="https://www.x-kom.pl/g-5/c/345-karty-graficzne.html"> <font size="4" color="#F52D0A"> Tutaj jest link do źródła </font></A> </i> </b><br> 
- <A HREF="index.html"> <font size="4"> wróć </A> <br>
-
-
-
-
-
 
 </body>
-
 </html>
